@@ -154,7 +154,7 @@ footer textarea {
   border: none;
 }
 /* responsive media queri */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 743px) {
   .banner,
   .about-items,
   .skills-container,
@@ -185,5 +185,19 @@ footer textarea {
   }
   .footer-column {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1073px) and (min-width: 743px) {
+  .width {
+    width: 250px;
+  }
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 10px;
   }
 }
